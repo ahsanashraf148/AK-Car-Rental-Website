@@ -1,0 +1,65 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: black;
+  color: silver;
+  margin: 0;
+  padding: 0;
+}
+
+.home-info-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: #333; /* Darker background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  color: silver;
+  text-align: center;
+  font-weight: bold;
+  background-color: #333; /* Add a background color */
+  padding: 10px 0; /* Add padding for better spacing */
+  border-radius: 10px; /* Add border-radius for rounded corners */
+  margin-bottom: 20px; /* Add margin at the bottom for separation */
+  text-transform: uppercase; /* Convert text to uppercase */
+  background-image: linear-gradient(to right, #333, #555); /* Gradient background */
+}
+
+.section-heading:hover {
+  background-color: #555; /* Change background color on hover */
+  color: white; /* Change text color on hover */
+  cursor: pointer; /* Change cursor on hover */
+}
+
+.section-subheading {
+  font-size: 1.5rem;
+  color: darkorange;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.section-text {
+  font-size: 1.2rem;
+  color: silver;
+  margin: 0 2rem 2rem 2rem;
+  line-height: 1.6;
+}
+
+.section-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.section-list-item {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: silver;
+}
